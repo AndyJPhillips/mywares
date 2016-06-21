@@ -1,0 +1,75 @@
+
+[
+{
+	"ParameterKey": "HostName",
+	"ParameterValue": "HubBastionServer"
+},
+{
+	"ParameterKey": "DomainName",
+	"ParameterValue": "your.domain"
+},
+{
+	"ParameterKey": "EnvType",
+	"ParameterValue": "Hub"
+},
+{
+	"ParameterKey": "KeyName",
+	"ParameterValue": "yourkey"
+},
+{
+	"ParameterKey": "BastionInstanceType",
+	"ParameterValue": "t2.small"
+},
+{
+	"ParameterKey": "NumInstances",
+	"ParameterValue": "1"
+},
+{
+	"ParameterKey": "MinInstances",
+	"ParameterValue": "1"
+},
+{
+	"ParameterKey": "MaxInstances",
+	"ParameterValue": "1"
+},
+{
+	"ParameterKey": "MinHealthyInstances",
+	"ParameterValue": "1"
+},
+{
+	"ParameterKey": "MaxHealthyInstances",
+	"ParameterValue": "1"
+},
+{
+	"ParameterKey": "ExternalELB",
+	"ParameterValue": "your-elb-name"
+},
+{
+	"ParameterKey": "VPCId",
+	"ParameterValue": "vpc-some-id"
+},
+{
+	"ParameterKey": "InstanceSubnets",
+	"ParameterValue": "subnet-some-id, subnet-someother-id"
+},
+{
+	"ParameterKey": "DNSZoneId",
+	"ParameterValue": "/hostedzone/a-zone"
+},
+{
+	"ParameterKey": "VpnGroup",
+	"ParameterValue": "sg-some-id"
+},
+{
+	"ParameterKey": "PublicELBSecurityGroup",
+	"ParameterValue": "sg-some-id"
+},
+{
+	"ParameterKey": "NatSecurityGroup",
+	"ParameterValue": "sg-some-id"
+},
+{
+	"ParameterKey": "BaseAmi",
+	"ParameterValue": "ami-an-id"
+}
+]
